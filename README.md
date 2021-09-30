@@ -15,7 +15,7 @@ Use whatever packages, frameworks & tools you require to achieve the above. Aim 
 ### Project Requirements
 The following must be included in each submission:
 
-1. An amendment to this README containing instructions on how to test and run your submission
+1. An amendment to this README containing instructions on how to test and run your submission. You can optionally deploy the application to a free heroku (https://heroku.com or similar) instance
 2. You should work on your own git branch and submit a pull request to the `main` branch when you're ready for your work to be reviewed
 
-P.S Writing unit tests are highly encouraged
+P.S Writing unit tests are not mandatory but a huge plus!
