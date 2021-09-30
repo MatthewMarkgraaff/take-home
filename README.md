@@ -9,7 +9,7 @@ The user should be prompted to enter a github username into the text field and s
 The server should receive this request and return a list / table containing all of the user's public Github repositories. Feel free to show information IE stars, repository name, links to each repository.  
 You do not need to persist any data for this project.
 
-To acheive this, you will need to integrate with the GitHub REST API (https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user).
+To acheive this, you will need to integrate with the GitHub REST API (https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user).  
 Use whatever packages, frameworks & tools you require to achieve the above. Aim for simplicity, conciceness and of course, working code.
 
 ### Project Requirements
