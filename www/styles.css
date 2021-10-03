@@ -1,0 +1,24 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+th,
+td {
+    text-align: left;
+    padding: 10px;
+}
+
+tr:nth-child(even) {
+    background-color: lightgray;
+}
+
+.form {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.description {
+    margin: 0px;
+}
