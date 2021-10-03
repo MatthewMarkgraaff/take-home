@@ -1,21 +1,20 @@
-# Programming take-home project
-The goal of this project is for you, the candidate, to demonstrate your programming ability - while being comfortable working in your own environment.
+# Git Repository Info Server
+---
+This app is a static go server that retrieves a Github users public repositories.
 
-### The Assignment
-Spend no more than two hours building the following:  
-A simple Go webserver that serves a single HTML page at it's root url.  
-The homepage should have some simple markup explaining the project, a single text input field & submit button.  
-The user should be prompted to enter a github username into the text field and submit the form.  
-The server should receive this request and respond by rendering a list / table containing all of the user's public Github repositories. Feel free to show information eg stars, repository name, links to each repository.  
-You do not need to persist any data for this project.
+## Prerequisites
+Ensure that [Go](https://golang.org/doc/install) is installed and navigate to the work directory.
 
-To acheive this, you will need to integrate with the GitHub REST API (https://docs.github.com/en/rest/reference/repos#list-repositories-for-a-user).  
-Use whatever packages, frameworks & tools you require to achieve the above. Aim for simplicity, conciceness and of course, working code.
+Open the directory in your IDE of choice or open a terminal in the working directory.
 
-### Project Requirements
-The following must be included in each submission:
+## Running the Server
+To run the server. \
+`go run main.go`
 
-1. An amendment to this README containing instructions on how to test and run your submission. You can optionally deploy the application to a free heroku (https://heroku.com or similar) instance
-2. You should work on your own git branch and submit a pull request to the `main` branch when you're ready for your work to be reviewed
 
-P.S Writing unit tests are not mandatory but a huge plus!
+Open [http://localhost:2107](http://localhost:2107) to view the page.
+
+To get a list of a users Github repositories enter the username in the text box and click submit.
+
+To build the execuatble run. \
+`go build main.go`
